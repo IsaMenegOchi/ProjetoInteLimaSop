@@ -40,7 +40,7 @@ header img{
 
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-indent:4em;
     text-align: justify;
 }
@@ -48,8 +48,8 @@ p{
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top:10px;
+    padding-bottom: 5px;
 }
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -92,6 +92,8 @@ footer{
 }
 
 .container1{
+    width: 100%;
+    height: 100vh;
     padding: 20px 20px;
     background-color: #c78046;
     border: solid 2px rgb(255, 255, 255);
@@ -107,7 +109,7 @@ footer{
 
 .container2{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #c8c640;
     padding: 30px 30px;
     border: solid 2px rgb(255, 255, 255);
@@ -151,7 +153,7 @@ footer{
 .container3 p{
     padding-left: 10px;
     padding-right: 20px;
-    width: 300px;
+    width: 30vw;
 }
 .hareParte1{
     display: flex;
@@ -175,7 +177,7 @@ footer{
 
 .container4{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #408bc8;
     border: solid 2px rgb(255, 255, 255);
     padding: 30px 30px;
@@ -186,12 +188,12 @@ footer{
 .fpooEscrita{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     padding-right: 50px;
 }
 .fpooVideos{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
     padding: 30px 30px;
 }
